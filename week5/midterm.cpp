@@ -16,8 +16,6 @@ using namespace std;
 // needing an attentence report for the dayspresent vs total days
 // searching, adding or removing kids with ID
 
-
-
 // Use of Struct to organize and have initializers
 // Use of the hint in the project but giving my own more detailed names
 struct studentInfo {
