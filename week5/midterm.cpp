@@ -1,7 +1,6 @@
 // Midterm Assignment - Application Project
 
 #include <iostream>
-#include <cctype> // toupper and tolower
 #include <string>
 #include <sstream> // stringstream class
 #include <limits> // for my pause return to menu
