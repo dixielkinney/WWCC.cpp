@@ -29,6 +29,7 @@ struct studentInfo {
 // Use of a function to add student to class, so giving the imaginary student an ID, name, GPA, how often they're present and then the total days. counter for how many students
 // using cin.ignore to clear the old line
 // get line so that i can have first and last name
+// added while loop so that GPA is 0-4 and fails if input is larger or smaller than that range
 void addStudent(studentInfo students[], int &count) {
     // how big the class can be, so no more than 15 students
     if (count >= 15) {
@@ -46,8 +47,17 @@ void addStudent(studentInfo students[], int &count) {
     cin.ignore();
     getline(cin, students[count].studentName);
 
-    cout << "Enter Student GPA: ";
+    cout << "Enter Student GPA (0.0 - 4.0): ";
     cin >> students[count].studentGPA;
+
+        while (cin.fail() || students[count].studentGPA < 0.0 || students[count].studentGPA > 4.0) {
+            cout << "Invalid GPA. Please enter a GPA value between 0.0 and 4.0: ";
+
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+            cin >> students[count].studentGPA;
+        }
 
     cout << "Days Student Present: ";
     cin >> students[count].daysPresent;
