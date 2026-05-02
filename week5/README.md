@@ -1,10 +1,10 @@
 Dixie Kinney\
 CS&131\
 Midterm Assignment - Application Project\
-May 2, 2026\\
+May 2, 2026\
 
 This my README for my Midterm Project.\
-For my Midterm Project I choose Project Option 1, the Student Tracker.\\
+For my Midterm Project I choose Project Option 1, the Student Tracker.\
 
 What is the Student Tracker?\
     The Student Tracker is a C++ program designed using skills taught in CS&131 and made using the hints given in the assignment about the Midterm.\
@@ -21,7 +21,7 @@ Where is the information stored?\
         int daysPresent;\
         int totalDays;\
     };\
-    (Copy and pasted from my program)\
+    (Copy and pasted from my program)
 
 How to Run the Program:\
     After downloading the program, the user can then use a terminal of their choice (I personally used the Visual Studio Code terminal). In the terminal the user will type:\
@@ -49,8 +49,8 @@ How do you use this Program?\
         Enter Menu Choice (1-8): \
     In order to properly use the program you'll need to create at least one student. So enter the choice of "1" which will allow you to add a student. Fill out the respective information (ID, name, GPA, etc) to your desires. From there the menu choices will give you proper information such as displaying students, searching students, honor roll, etc.\
 
-Thank you for using my Student Tracker Program!\\
+Thank you for using my Student Tracker Program!\
 
 Dixie Kinney\
 Student Tracker Program\
-C++ Program\
+C++ Program
