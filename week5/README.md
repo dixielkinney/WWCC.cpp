@@ -22,6 +22,7 @@ Where is the information stored?\
         int totalDays;\
     };\
     (Copy and pasted from my program)\
+
 How to Run the Program:\
     After downloading the program, the user can then use a terminal of their choice (I personally used the Visual Studio Code terminal). In the terminal the user will type:\
         g++ midterm.cpp -o midterm\
@@ -29,8 +30,10 @@ How to Run the Program:\
         ./midterm\
     This will run the program and open up the menu that the user can now select from. \
     *Recommended having MinGW as a compiler as that is what is originally used for this program\
+
 What Concepts were used?\
     In this program I used structs, functions, arrays, loops (for, do, while), conditional statements (if and switch), input validations (cin.fail and cin.ignore), and strings (string and getline).\
+
 How do you use this Program?\
     To use this program, make sure to compile it and then run it (As answered in "How to Run the Program"). Once you run it you will be greeted with a menu called the Student Tracking Menu\
     Example of how the menu looks:\
