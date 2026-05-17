@@ -20,7 +20,7 @@ int main() {
         cout << "Enter choice (1-6): " << endl;
         cin >> choice;
 
-        cin.ignore(numeric_limits<streamsize>::max());
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         if (choice == 1) {
             string title, isbn, authorName;
@@ -47,7 +47,7 @@ int main() {
             Book book(title, pubYear, isbn, author);
             library.addBook(book);
 
-            cout << "Book successfully added to the library!";
+            cout << "Book successfully added to the library!" << endl;
         } else if (choice == 2) {
             library.displayAllBooks();
         } else if (choice == 3) {
